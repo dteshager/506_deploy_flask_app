@@ -14,6 +14,6 @@ Open the terminal in the project directory (where the Dockerfile is located) and
 
 ### 2. Run the Docker container
 
-docker run -p 5000:5000 flask_app:0.0.1.RELEASE
+docker run -p 5000:5000 flask_app:0.0.1.RELEASE <br>
 after you run the above command you can open your browser and go to: http://localhost:5000
 
