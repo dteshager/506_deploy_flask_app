@@ -4,7 +4,7 @@ It's a lightweight Flask web app Contanerized with Docker.
 
 ## Requirements
 
--Docker installed on your system.
+-Docker installed on your system. <br>
 -Python dependencies are managed inside the docker container.
 
 ## How to run 
