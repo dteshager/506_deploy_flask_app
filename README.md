@@ -2,7 +2,8 @@
 This is a basic Flask application containerized wiht Docker. The app demonstrates how to run a simple python web server using Flask inside a Docker container. It uses python 3.11 and Flask 3.1.0.
 It's a lightweight Flask web app Contanerized with Docker.
 
-##Requirements
+## Requirements
+
 -Docker installed on your system
 -Python dependencies are managed inside the docker container.
 
