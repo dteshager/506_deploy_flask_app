@@ -1,5 +1,5 @@
 from flask import Blueprint
-import datetime
+from datetime import datetime
 views = Blueprint('views', __name__)
 
 @views.route('/')
@@ -10,6 +10,6 @@ def name():
     return "<h1>Hello from Dereje!</h1>"
 
 @views.route('/datetime')
-def time():
-    now = datetime.datetime.now()
-    return f"<h1>Current Date and Time: {now}</h1>"
+def current_time():
+    now = datetime.now()
+    return f"<h1>Current Date and Time: {now.strftime('%Y-%m-%d %H:%M:%S')}</h1>"
